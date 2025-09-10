@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S. Santhi Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffc0cb, #ffffff);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #fff0f5;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #d6336c;
+    }
+
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 1.2em;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #d6336c;
+      border-bottom: 2px solid #ffc0cb;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 5px 0;
+    }
+
+    .contact a {
+      color: #d6336c;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: #d6336c;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #ff3366;
+    }
+
+    #message {
+      margin-top: 10px;
+      color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎀 S. Santhi 🎀</h1>
+    <p>Department: BCA, Arcot Sri Mahalakshmi Women's College 🎓</p>
+  </header>
+
+  <section>
+    <h2>About Me ✨</h2>
+    <p>Hello! I am S. Santhi, a BCA student. I enjoy learning new technologies and creating interactive web projects using HTML, CSS, and JavaScript 💻.</p>
+  </section>
+
+  <section>
+    <h2>Education 🎓</h2>
+    <ul>
+      <li>BCA – Arcot Sri Mahalakshmi Women's College</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills 🛠️</h2>
+    <ul>
+      <li>🐍 Python</li>
+      <li>💻 C++</li>
+      <li>🌐 HTML</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Hobbies 🎨🎶</h2>
+    <ul>
+      <li>🎤 Singing</li>
+      <li>🖌️ Drawing</li>
+      <li>✍️ Writing</li>
+      <li>🏀 Playing</li>
+      <li>💃 Dancing</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me 📞</h2>
+    <p>Email: ✉️ <a href="mailto:santhi@example.com">santhi@example.com</a></p>
+    <p>LinkedIn: 🔗 <a href="https://www.linkedin.com/in/santhi" target="_blank">linkedin.com/in/santhi</a></p>
+  </section>
+
+  <section>
+    <h2>Interactive Section 🌟</h2>
+    <p>Click the button to see a greeting:</p>
+    <button onclick="showMessage()">Click Me! 👆</button>
+    <p id="message"></p>
+  </section>
+
+  <script>
+    function showMessage() {
+      const message = document.getElementById('message');
+      message.textContent = "🌸 Hello! Welcome to my portfolio! 🌸";
+    }
+  </script>
+
+</body>
+</html>
